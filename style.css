@@ -1,0 +1,60 @@
+body{
+    background-image: url(image/niceimage.ru-29338.jpg);
+}
+.login {
+     background: #8B0000;
+    padding: 1%;
+    margin-right: 5%;
+    color: chartreuse;
+}
+
+a:link {text-decoration: none;}   
+a:active {text-decoration: none;}
+a:hover {text-decoration: none; color:black;}
+
+h1 {
+   text-align: center;
+     line-height: 300%;   
+}
+
+h3 {
+    text-align: 0% 10% 30%;
+    font-size: 200%;
+    height: 3%;
+    background: rgba(178, 34, 34, 0.8);
+    padding: 3%;
+    text-align: center;
+}
+ul li {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+ul li a {
+    height: 100%;
+    padding-top:75px;
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+    vertical-align: middle;
+    color: white;
+    display: inline-block;
+}
+ul li:nth-child(1) {
+    background: #66CDAA;
+}
+ul li:nth-child(2) {
+    background: #0000CD;   
+}
+ul li:nth-child(3) {
+    background: #FF1493;   
+}ul li:nth-child(4) {
+    background: #008000;   
+}
+ul li:hover {
+    background:#008000;
+    transition: all 0.4s linear;
+}
